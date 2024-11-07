@@ -1,0 +1,97 @@
+Resumo das Vulnerabilidades por Risk Factor:
+
+High: 0
+Critical: 5
+Low: 70
+Medium: 49
+
+Vulnerabilidades em comum, entre os sites/URI:
+
+jQuery 1.2.0 < 3.5.0 Cross-Site Scripting
+Plugin ID:112383
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+SSL/TLS Certificate Common Name Mismatch
+Plugin ID:112541
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+PHP Unsupported Version
+Plugin ID:98230
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
+
+Cookie Without SameSite Flag Detected
+Plugin ID:115540
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
+
+HTTP Header Information Disclosure
+Plugin ID:98618
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Package Dependencies Detected
+Plugin ID:113158
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
+
+Source Code Passive Disclosure
+Plugin ID:98779
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
+
+Missing Content Security Policy
+Plugin ID:112551
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Missing 'X-Frame-Options' Header
+Plugin ID:98060
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Cookie Without HttpOnly Flag Detected
+Plugin ID:98063
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
+
+TLS 1.0 Weak Protocol
+Plugin ID:112496
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+jQuery < 3.4.0 Prototype Pollution
+Plugin ID:98590
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+HTTP to HTTPS Redirect Not Enabled
+Plugin ID:112544
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+External Broken Resources Detected
+Plugin ID:114386
+URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
+
+Cookie Without Secure Flag Detected
+Plugin ID:98064
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br
+
+Missing 'X-Content-Type-Options' Header
+Plugin ID:112529
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Missing HTTP Strict Transport Security Policy
+Plugin ID:98056
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br
+
+Bootstrap 3.x < 3.4.1 Cross-Site Scripting
+Plugin ID:112375
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+jQuery 1.4.0 < 1.12.0 Cross-Site Scripting
+Plugin ID:112434
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Bootstrap < 3.4.0 Cross-Site Scripting
+Plugin ID:112373
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+SSL/TLS Certificate Expired
+Plugin ID:112493
+URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+
+Domínios analisados:
+http://educacao.nti.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
