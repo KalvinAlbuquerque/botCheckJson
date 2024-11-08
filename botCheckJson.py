@@ -1,5 +1,6 @@
 import json
 import os
+import glob
 from collections import defaultdict
 from urllib.parse import urlparse, urljoin
 
@@ -51,7 +52,7 @@ def extrair_dados(json_files, output_file):
                     
                     formatted_uri = formatar_uri(target, uri)
                     common_vulnerabilities[(name,plugin_id)].append(formatted_uri)
-
+    
         with open(output_file, 'w', encoding='utf-8') as output:
             output.write("Resumo das Vulnerabilidades por Risk Factor:\n\n")
             output.write(f"High: {risk_factor_counts['High']}\n")
@@ -63,11 +64,16 @@ def extrair_dados(json_files, output_file):
             for (name,plugin_id), uris in common_vulnerabilities.items():
                 if len(uris) > 1:
                     unique_uris = set(uris)
-                    output.write(f"{name}\n")
+                    output.write(f"\nVulnerabilidade:{name}\n")
                     output.write(f"Plugin ID:{plugin_id}\n")
-                    output.write(f"URI Afetadas: {', '.join(unique_uris)}\n\n")
+                    output.write(f"Total de URI Afetadas:{len(unique_uris)}\n")
+                    output.write(f"URI Afetadas:\n")
+                    for url in unique_uris:
+                        output.write(f"{url}\n")
 
-            output.write("Domínios analisados:\n")
+
+            output.write("\nDomínios analisados:\n")
+            output.write(f"\nTotal de sites:{len(targets)}")
             output.write("\n".join(targets))
         
         print(f"Dados extraídos e salvos com sucesso no arquivo: {output_file}")
@@ -79,17 +85,16 @@ def extrair_dados(json_files, output_file):
     except Exception as e:
         print(f"Erro inesperado: {e}")
 
-# Usando glob ou os para obter os arquivos JSON automaticamente:
-import glob
 
-# Caminho para o diretório onde estão os arquivos JSON
-diretorio_json = 'arquivos_json' # Substitua pelo caminho correto
+if __name__ == "__main__":
+    # Caminho para o diretório onde estão os arquivos JSON
+    diretorio_json = 'arquivos_json' # Substitua pelo caminho correto
 
-# Encontrar todos os arquivos JSON no diretório
-json_files = glob.glob(f'{diretorio_json}/*.json')  # Ou use os.listdir() se preferir
+    # Encontrar todos os arquivos JSON no diretório
+    json_files = glob.glob(f'{diretorio_json}/*.json')  # Ou use os.listdir() se preferir
 
-# Arquivo de saída
-output_file = 'dados_extraidos.txt'
+    # Arquivo de saída
+    output_file = 'dados_extraidos.txt'
 
-# Executar a função com os arquivos encontrados
-extrair_dados(json_files, output_file)
+    # Executar a função com os arquivos encontrados
+    extrair_dados(json_files, output_file)

@@ -1,97 +1,1988 @@
 Resumo das Vulnerabilidades por Risk Factor:
 
-High: 0
-Critical: 5
-Low: 70
-Medium: 49
+High: 155
+Critical: 170
+Low: 1552
+Medium: 716
 
 Vulnerabilidades em comum, entre os sites/URI:
 
-jQuery 1.2.0 < 3.5.0 Cross-Site Scripting
-Plugin ID:112383
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
 
-SSL/TLS Certificate Common Name Mismatch
-Plugin ID:112541
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-PHP Unsupported Version
-Plugin ID:98230
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
-
-Cookie Without SameSite Flag Detected
-Plugin ID:115540
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
-
-HTTP Header Information Disclosure
+Vulnerabilidade:HTTP Header Information Disclosure
 Plugin ID:98618
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Total de URI Afetadas:68
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://saudecheck.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://salutemais.saude.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://vidamais.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://vida.beta.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
 
-Package Dependencies Detected
-Plugin ID:113158
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
+Vulnerabilidade:TLS 1.1 Weak Protocol
+Plugin ID:112546
+Total de URI Afetadas:24
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
 
-Source Code Passive Disclosure
-Plugin ID:98779
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br
-
-Missing Content Security Policy
-Plugin ID:112551
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-Missing 'X-Frame-Options' Header
-Plugin ID:98060
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-Cookie Without HttpOnly Flag Detected
-Plugin ID:98063
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
-
-TLS 1.0 Weak Protocol
-Plugin ID:112496
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-jQuery < 3.4.0 Prototype Pollution
-Plugin ID:98590
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-HTTP to HTTPS Redirect Not Enabled
-Plugin ID:112544
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
-
-External Broken Resources Detected
-Plugin ID:114386
-URI Afetadas: http://educacao.nti.saude.salvador.ba.gov.br, http://recadastramento.saude.salvador.ba.gov.br
-
-Cookie Without Secure Flag Detected
-Plugin ID:98064
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br
-
-Missing 'X-Content-Type-Options' Header
+Vulnerabilidade:Missing 'X-Content-Type-Options' Header
 Plugin ID:112529
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Total de URI Afetadas:47
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+https://saudecheck.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
 
-Missing HTTP Strict Transport Security Policy
+Vulnerabilidade:SSL/TLS Forward Secrecy Cipher Suites Not Supported
+Plugin ID:98617
+Total de URI Afetadas:27
+URI Afetadas:
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+
+Vulnerabilidade:TLS 1.0 Weak Protocol
+Plugin ID:112496
+Total de URI Afetadas:25
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL/TLS Weak Cipher Suites Supported
+Plugin ID:112539
+Total de URI Afetadas:29
+URI Afetadas:
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Missing 'X-Frame-Options' Header
+Plugin ID:98060
+Total de URI Afetadas:54
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://saudecheck.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Missing HTTP Strict Transport Security Policy
 Plugin ID:98056
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br
+Total de URI Afetadas:28
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://saudecheck.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://salutemais.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
 
-Bootstrap 3.x < 3.4.1 Cross-Site Scripting
-Plugin ID:112375
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Vulnerabilidade:Cookie Without SameSite Flag Detected
+Plugin ID:115540
+Total de URI Afetadas:49
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://vidamais.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
 
-jQuery 1.4.0 < 1.12.0 Cross-Site Scripting
+Vulnerabilidade:Permissive Content Security Policy Detected
+Plugin ID:112554
+Total de URI Afetadas:13
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Cookie Without Secure Flag Detected
+Plugin ID:98064
+Total de URI Afetadas:31
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://vidamais.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Missing 'Cache-Control' Header
+Plugin ID:112553
+Total de URI Afetadas:37
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Cookie Without HttpOnly Flag Detected
+Plugin ID:98063
+Total de URI Afetadas:40
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Blind SQL Injection (differential analysis)
+Plugin ID:98117
+Total de URI Afetadas:6
+URI Afetadas:
+https://gitlab.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery 1.2.0 < 3.5.0 Cross-Site Scripting
+Plugin ID:112383
+Total de URI Afetadas:33
+URI Afetadas:
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery < 3.4.0 Prototype Pollution
+Plugin ID:98590
+Total de URI Afetadas:34
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery 1.4.0 < 1.12.0 Cross-Site Scripting
 Plugin ID:112434
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Total de URI Afetadas:16
+URI Afetadas:
+https://www.vidamais.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
 
-Bootstrap < 3.4.0 Cross-Site Scripting
+Vulnerabilidade:Bootstrap 3.x < 3.4.1 Cross-Site Scripting
+Plugin ID:112375
+Total de URI Afetadas:19
+URI Afetadas:
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery UI < 1.13.2 Cross-Site Scripting
+Plugin ID:113672
+Total de URI Afetadas:14
+URI Afetadas:
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Bootstrap < 3.4.0 Cross-Site Scripting
 Plugin ID:112373
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Total de URI Afetadas:19
+URI Afetadas:
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
 
-SSL/TLS Certificate Expired
+Vulnerabilidade:jQuery UI < 1.12.0 Cross-Site Scripting
+Plugin ID:98393
+Total de URI Afetadas:12
+URI Afetadas:
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery UI < 1.13.0 Multiple Vulnerabilities
+Plugin ID:113042
+Total de URI Afetadas:14
+URI Afetadas:
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:ASP.NET DEBUG Method Enabled
+Plugin ID:112353
+Total de URI Afetadas:8
+URI Afetadas:
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery 1.12.4 < 3.0.0 Cross-Site Scripting
+Plugin ID:112435
+Total de URI Afetadas:5
+URI Afetadas:
+https://bi.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Insecure Redirect Chain
+Plugin ID:113219
+Total de URI Afetadas:10
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Missing 'Content-Type' Header
+Plugin ID:98648
+Total de URI Afetadas:10
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Missing Content Security Policy
+Plugin ID:112551
+Total de URI Afetadas:43
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:ASP.NET ViewState Not Encrypted
+Plugin ID:112923
+Total de URI Afetadas:7
+URI Afetadas:
+https://www.vidamais.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Login Form Cross-Site Request Forgery
+Plugin ID:113332
+Total de URI Afetadas:20
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Password Field With Auto-Complete
+Plugin ID:98081
+Total de URI Afetadas:18
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery UI < 1.10.0 Multiple Vulnerabilities
+Plugin ID:98394
+Total de URI Afetadas:2
+URI Afetadas:
+https://cvd.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Mixed Resource Detection
+Plugin ID:98091
+Total de URI Afetadas:5
+URI Afetadas:
+https://cvd.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+
+Vulnerabilidade:jQuery < 1.6.3 Cross-Site Scripting
+Plugin ID:112431
+Total de URI Afetadas:2
+URI Afetadas:
+https://cip.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Blind SQL Injection (timing attack)
+Plugin ID:98118
+Total de URI Afetadas:3
+URI Afetadas:
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP Unsupported Version
+Plugin ID:98230
+Total de URI Afetadas:24
+URI Afetadas:
+https://mapaupas.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+
+Vulnerabilidade:HTTP TRACE Allowed
+Plugin ID:98048
+Total de URI Afetadas:21
+URI Afetadas:
+https://mapaupas.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Gitignore File Detected
+Plugin ID:98595
+Total de URI Afetadas:2
+URI Afetadas:
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Package Dependencies Detected
+Plugin ID:113158
+Total de URI Afetadas:5
+URI Afetadas:
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:HTTP to HTTPS Redirect Not Enabled
+Plugin ID:112544
+Total de URI Afetadas:27
+URI Afetadas:
+http://bibliotecadigital.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://vida.beta.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:LayerSlider Plugin for WordPress 7.9.11 < 7.10.1 SQL Injection
+Plugin ID:114258
+Total de URI Afetadas:1
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Contact Form 7 Plugin for WordPress < 5.9.2 Cross-Site Scripting
+Plugin ID:114286
+Total de URI Afetadas:5
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Contact Form 7 Plugin for WordPress < 5.8.4 Arbitrary File Upload
+Plugin ID:114285
+Total de URI Afetadas:5
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 8.2.x < 8.2.20 Multiple Vulnerabilities
+Plugin ID:114297
+Total de URI Afetadas:2
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress User Enumeration
+Plugin ID:98203
+Total de URI Afetadas:5
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress XML-RPC Interface Detected
+Plugin ID:98215
+Total de URI Afetadas:8
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress Cron Enabled
+Plugin ID:113449
+Total de URI Afetadas:8
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress Administration Panel Login Form Detected
+Plugin ID:98207
+Total de URI Afetadas:6
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 8.2.x < 8.2.18 Multiple Vulnerabilities
+Plugin ID:114271
+Total de URI Afetadas:2
+URI Afetadas:
+https://esps.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.41 Multiple Vulnerabilities
+Plugin ID:98669
+Total de URI Afetadas:6
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.39 Multiple Vulnerabilities
+Plugin ID:98530
+Total de URI Afetadas:6
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.13 Multiple Vulnerabilities
+Plugin ID:112670
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.24 Path Traversal
+Plugin ID:112985
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.11 Multiple Vulnerabilities
+Plugin ID:112602
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.14 Input Validation Error
+Plugin ID:112678
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.25 Privilege Escalation
+Plugin ID:113039
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.33 Multiple Vulnerabilities
+Plugin ID:113426
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.10 Memory Leak Vulnerability
+Plugin ID:112605
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.46 Multiple Vulnerabilities
+Plugin ID:112580
+Total de URI Afetadas:3
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.54 Multiple Vulnerabilities
+Plugin ID:113254
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.52 Multiple Vulnerabilities
+Plugin ID:113079
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:TLS 1.2 Not Supported Protocol
+Plugin ID:98616
+Total de URI Afetadas:6
+URI Afetadas:
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.21 Multiple Vulnerabilities
+Plugin ID:112882
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.28 Use After Free Vulnerability
+Plugin ID:113149
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.18 Header Injection Vulnerability
+Plugin ID:112769
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.56 Multiple Vulnerabilities
+Plugin ID:113673
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Web Server Configuration File Detected
+Plugin ID:114195
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Web.config File Information Disclosure
+Plugin ID:98594
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.32 Multiple Vulnerabilities
+Plugin ID:113390
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.53 Multiple Vulnerabilities
+Plugin ID:113194
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.48 Multiple Vulnerabilities
+Plugin ID:112806
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.26 Local File Inclusion
+Plugin ID:113060
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.43 Multiple Vulnerabilities
+Plugin ID:98998
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.55 Multiple Vulnerabilities
+Plugin ID:113545
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.30 Multiple Vulnerabilities
+Plugin ID:113253
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.12 Multiple Vulnerabilities
+Plugin ID:112656
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.60 Multiple Vulnerabilities
+Plugin ID:114360
+Total de URI Afetadas:8
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP 7.4.x < 7.4.15 Null Dereference Vulnerability
+Plugin ID:112701
+Total de URI Afetadas:2
+URI Afetadas:
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.58 Multiple Vulnerabilities
+Plugin ID:114090
+Total de URI Afetadas:8
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.62 Multiple Vulnerabilities
+Plugin ID:114385
+Total de URI Afetadas:8
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.59 Multiple Vulnerabilities
+Plugin ID:114249
+Total de URI Afetadas:8
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.49 Multiple Vulnerabilities
+Plugin ID:112981
+Total de URI Afetadas:7
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:GraphQL Cross-Site Request Forgery
+Plugin ID:112920
+Total de URI Afetadas:1
+URI Afetadas:
+https://gitlab.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Permissive HTTP Strict Transport Security Policy Detected
+Plugin ID:98715
+Total de URI Afetadas:5
+URI Afetadas:
+https://www.vidamais.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Moment.js 2.18.x < 2.29.4 Regular Expression Denial of Service
+Plugin ID:113312
+Total de URI Afetadas:3
+URI Afetadas:
+https://mapaupas.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHPinfo Information Disclosure
+Plugin ID:98223
+Total de URI Afetadas:4
+URI Afetadas:
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SQL Injection
+Plugin ID:98115
+Total de URI Afetadas:1
+URI Afetadas:
+https://notifique.treinamento.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Host Header Injection
+Plugin ID:98623
+Total de URI Afetadas:6
+URI Afetadas:
+https://osfabrica.saude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Insecure 'Access-Control-Allow-Origin' Header
+Plugin ID:98057
+Total de URI Afetadas:4
+URI Afetadas:
+https://saudecheck.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.9 Multiple Vulnerabilities
+Plugin ID:98905
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.6 Remote DoS
+Plugin ID:98904
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.28 HTTP Vulnerability (OptionsBleed)
+Plugin ID:98913
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.27 Multiple Vulnerabilities
+Plugin ID:98912
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.34 Multiple Vulnerabilities
+Plugin ID:98915
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.25 Multiple Vulnerabilities (httpoxy)
+Plugin ID:98910
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.16 Multiple Vulnerabilities
+Plugin ID:98908
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.12 Multiple Vulnerabilities
+Plugin ID:98907
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.10 Multiple Vulnerabilities
+Plugin ID:98906
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.33 Multiple Vulnerabilities
+Plugin ID:98914
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.35 Denial of Service
+Plugin ID:98916
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.26 Multiple Vulnerabilities
+Plugin ID:98911
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Apache 2.4.x < 2.4.38 Multiple Vulnerabilities
+Plugin ID:98537
+Total de URI Afetadas:4
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Source Code Passive Disclosure
+Plugin ID:98779
+Total de URI Afetadas:5
+URI Afetadas:
+https://saude.homologacao.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+
+Vulnerabilidade:HTML/CSS Injection
+Plugin ID:114134
+Total de URI Afetadas:3
+URI Afetadas:
+https://saude.homologacao.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Cross-Site Scripting (XSS)
+Plugin ID:98104
+Total de URI Afetadas:3
+URI Afetadas:
+https://saude.homologacao.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SQL Statement Disclosure
+Plugin ID:113555
+Total de URI Afetadas:2
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL/TLS Insecure Cipher Suites Supported
+Plugin ID:112538
+Total de URI Afetadas:4
+URI Afetadas:
+http://academiasdesaude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+
+Vulnerabilidade:Access Restriction Bypass Via Origin Spoof
+Plugin ID:98096
+Total de URI Afetadas:1
+URI Afetadas:
+http://academiasdesaude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL Insecure Protocols
+Plugin ID:112494
+Total de URI Afetadas:4
+URI Afetadas:
+http://academiasdesaude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+
+Vulnerabilidade:Apache mod_status Information Disclosure
+Plugin ID:98225
+Total de URI Afetadas:2
+URI Afetadas:
+http://academiasdesaude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+
+Vulnerabilidade:HTTPS Not Detected
+Plugin ID:112543
+Total de URI Afetadas:7
+URI Afetadas:
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+
+Vulnerabilidade:OpenAPI Permissive Input Validation
+Plugin ID:113258
+Total de URI Afetadas:1
+URI Afetadas:
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Unencrypted Password Form
+Plugin ID:98082
+Total de URI Afetadas:10
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL/TLS Certificate Expired
 Plugin ID:112493
-URI Afetadas: http://recadastramento.saude.salvador.ba.gov.br, http://carnaval.saude.salvador.ba.gov.br
+Total de URI Afetadas:16
+URI Afetadas:
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+http://recadastramento.saude.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+http://vida.beta.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:HTTP Parameter Pollution
+Plugin ID:113230
+Total de URI Afetadas:2
+URI Afetadas:
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL/TLS Certificate Common Name Mismatch
+Plugin ID:112541
+Total de URI Afetadas:18
+URI Afetadas:
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://vida.beta.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Microsoft IIS Unsupported Version
+Plugin ID:113029
+Total de URI Afetadas:5
+URI Afetadas:
+http://vida.beta.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Microsoft IIS Tilde Character Short File/Folder Name Disclosure
+Plugin ID:112442
+Total de URI Afetadas:5
+URI Afetadas:
+http://vida.beta.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://carnaval.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+
+Vulnerabilidade:SSL/TLS Self-Signed Certificate
+Plugin ID:112495
+Total de URI Afetadas:2
+URI Afetadas:
+http://carnaval.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Underscore.js 1.3.2 < 1.12.1 Arbitrary Code Injection
+Plugin ID:112982
+Total de URI Afetadas:2
+URI Afetadas:
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress < 5.8.0 Multiple Vulnerabilities
+Plugin ID:113500
+Total de URI Afetadas:4
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br
+
+Vulnerabilidade:External Broken Resources Detected
+Plugin ID:114386
+Total de URI Afetadas:5
+URI Afetadas:
+http://recadastramento.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Contact Form 7 Plugin for WordPress < 5.3.2 Arbitrary File Upload
+Plugin ID:112675
+Total de URI Afetadas:4
+URI Afetadas:
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:PHP Input Variables Exceeded
+Plugin ID:114322
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Wordfence Security Plugin for WordPress < 7.6.0 Stored Cross-Site Scripting
+Plugin ID:113461
+Total de URI Afetadas:3
+URI Afetadas:
+http://portalvida.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.29 Multiple Vulnerabilities
+Plugin ID:113403
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.30 Multiple Vulnerabilities
+Plugin ID:113913
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.32 Multiple Vulnerabilities
+Plugin ID:114173
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.28 Multiple Vulnerabilities
+Plugin ID:113351
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.33 Multiple Vulnerabilities
+Plugin ID:114333
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:WordPress 4.4.x < 4.4.31 Multiple Vulnerabilities
+Plugin ID:114069
+Total de URI Afetadas:2
+URI Afetadas:
+http://quizcovid.saude.salvador.ba.gov.br
+http://detetivefurafila.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Bootstrap 4.x < 4.3.1 Cross-Site Scripting
+Plugin ID:112376
+Total de URI Afetadas:2
+URI Afetadas:
+http://educacao.nti.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Bootstrap 4.0.0 < 4.1.2 Cross-Site Scripting
+Plugin ID:112374
+Total de URI Afetadas:2
+URI Afetadas:
+http://educacao.nti.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+
+Vulnerabilidade:Travis CI Configuration Detected
+Plugin ID:113156
+Total de URI Afetadas:2
+URI Afetadas:
+http://educacao.nti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
 
 Domínios analisados:
-http://educacao.nti.saude.salvador.ba.gov.br
-http://recadastramento.saude.salvador.ba.gov.br
+
+Total de sites:71http://api.usopublico.vidamais.saude.salvador.ba.gov.br
+https://acsmobile.vida.saude.salvador.ba.gov.br
+https://atualizaagendamento.saude.salvador.ba.gov.br
+https://autonotificacaoreacoesimuno.saude.salvador.ba.gov.br
+https://bi.saude.salvador.ba.gov.br
+https://blitz.coronavirus.saude.salvador.ba.gov.br
+https://carteiradevacinadigital.saude.salvador.ba.gov.br
+https://cip.saude.salvador.ba.gov.br
+https://credenciamentoeas.saude.salvador.ba.gov.br
+https://cvd.saude.salvador.ba.gov.br
+https://esps.saude.salvador.ba.gov.br
+https://esusab.saude.salvador.ba.gov.br
+https://filometro.saude.salvador.ba.gov.br
+https://gerenciamentoleitos.saude.salvador.ba.gov.br
+https://gestaodesaude.salutemais.saude.salvador.ba.gov.br
+https://gitlab.saude.salvador.ba.gov.br
+https://mapadasaude.salvador.ba.gov.br
+https://mapaupas.saude.salvador.ba.gov.br
+https://notifique.treinamento.saude.salvador.ba.gov.br
+https://osfabrica.saude.salvador.ba.gov.br
+https://pecesus.saude.salvador.ba.gov.br
+https://portaldeservicosnti.saude.salvador.ba.gov.br
+https://portalsaude.salvador.ba.gov.br
+https://redmine.saude.salvador.ba.gov.br
+https://registry.gitlab.saude.salvador.ba.gov.br
+https://relatorio.esusab.saude.salvador.ba.gov.br
+https://salutemais.saude.salvador.ba.gov.br
+https://saudecheck.saude.salvador.ba.gov.br
+https://saude.homologacao.salvador.ba.gov.br
+https://sigau.saude.salvador.ba.gov.br
+https://simon.saude.salvador.ba.gov.br
+https://vacinometro.saude.salvador.ba.gov.br
+https://vidamais.saude.salvador.ba.gov.br
+https://www.vidamais.saude.salvador.ba.gov.br
+http://academiasdesaude.salvador.ba.gov.br
+http://api.estabelecimentossalus.homologacao.saude.salvador.ba.gov.br
+http://api.salus.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.homologacao.saude.salvador.ba.gov.br
+http://avaliaeas.saude.salvador.ba.gov.br
+http://bibliotecadigital.saude.salvador.ba.gov.br
 http://carnaval.saude.salvador.ba.gov.br
+http://catalogodesistemas.saude.salvador.ba.gov.br
+http://cievs.saude.salvador.ba.gov.br
+http://comorbidades.saude.salvador.ba.gov.br/
+http://detetivefurafila.saude.salvador.ba.gov.br
+http://educacao.nti.saude.salvador.ba.gov.br
+http://educacao.saude.salvador.ba.gov.br
+http://eventos.homologacao.saude.salvador.ba.gov.br
+http://indicadores.saladesituacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.homologacao.saude.salvador.ba.gov.br
+http://meupetconsolidado.saude.salvador.ba.gov.br
+http://odontoprotese.saude.salvador.ba.gov.br
+http://pisoenfermagem.saude.salvador.ba.gov.br
+http://portalvida.saude.salvador.ba.gov.br
+http://prestadores.saude.salvador.ba.gov.br
+http://psono.saude.salvador.ba.gov.br
+http://quizcovid.saude.salvador.ba.gov.br
+http://saudedoservidor.salvador.ba.gov.br
+http://saude.salvador.ba.gov.br
+http://servicosocial.salutemais.saude.salvador.ba.gov.br
+http://sigau.homologacao.saude.salvador.ba.gov.br
+http://tabnet.saude.salvador.ba.gov.br
+http://treinamento.saude.salvador.ba.gov.br
+http://vacinacovid.saude.salvador.ba.gov.br
+http://vacinaexpress.saude.salvador.ba.gov.br
+http://vacinahoramarcadaviagem.saude.salvador.ba.gov.br
+http://vacinahoramarcada.saude.salvador.ba.gov.br
+http://vida.beta.saude.salvador.ba.gov.br
+http://wcfservicevida.saude.salvador.ba.gov.br
+http://www.portfolionti.saude.salvador.ba.gov.br/
+http://recadastramento.saude.salvador.ba.gov.br

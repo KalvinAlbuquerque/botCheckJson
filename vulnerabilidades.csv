@@ -1,0 +1,134 @@
+Vulnerabilidade,Total de URI Afetadas
+HTTP Header Information Disclosure,68
+Missing 'X-Frame-Options' Header,54
+Cookie Without SameSite Flag Detected,49
+Missing 'X-Content-Type-Options' Header,47
+Missing Content Security Policy,43
+Cookie Without HttpOnly Flag Detected,40
+Missing 'Cache-Control' Header,37
+jQuery < 3.4.0 Prototype Pollution,34
+jQuery 1.2.0 < 3.5.0 Cross-Site Scripting,33
+Cookie Without Secure Flag Detected,31
+SSL/TLS Weak Cipher Suites Supported,29
+Missing HTTP Strict Transport Security Policy,28
+SSL/TLS Forward Secrecy Cipher Suites Not Supported,27
+HTTP to HTTPS Redirect Not Enabled,27
+TLS 1.0 Weak Protocol,25
+TLS 1.1 Weak Protocol,24
+PHP Unsupported Version,24
+HTTP TRACE Allowed,21
+Login Form Cross-Site Request Forgery,20
+Bootstrap 3.x < 3.4.1 Cross-Site Scripting,19
+Bootstrap < 3.4.0 Cross-Site Scripting,19
+Password Field With Auto-Complete,18
+SSL/TLS Certificate Common Name Mismatch,18
+jQuery 1.4.0 < 1.12.0 Cross-Site Scripting,16
+SSL/TLS Certificate Expired,16
+jQuery UI < 1.13.2 Cross-Site Scripting,14
+jQuery UI < 1.13.0 Multiple Vulnerabilities,14
+Permissive Content Security Policy Detected,13
+jQuery UI < 1.12.0 Cross-Site Scripting,12
+Insecure Redirect Chain,10
+Missing 'Content-Type' Header,10
+Unencrypted Password Form,10
+ASP.NET DEBUG Method Enabled,8
+WordPress XML-RPC Interface Detected,8
+WordPress Cron Enabled,8
+Apache 2.4.x < 2.4.60 Multiple Vulnerabilities,8
+Apache 2.4.x < 2.4.58 Multiple Vulnerabilities,8
+Apache 2.4.x < 2.4.62 Multiple Vulnerabilities,8
+Apache 2.4.x < 2.4.59 Multiple Vulnerabilities,8
+ASP.NET ViewState Not Encrypted,7
+Apache 2.4.x < 2.4.54 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.52 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.56 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.53 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.48 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.43 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.55 Multiple Vulnerabilities,7
+Apache 2.4.x < 2.4.49 Multiple Vulnerabilities,7
+HTTPS Not Detected,7
+Blind SQL Injection (differential analysis),6
+WordPress Administration Panel Login Form Detected,6
+Apache 2.4.x < 2.4.41 Multiple Vulnerabilities,6
+Apache 2.4.x < 2.4.39 Multiple Vulnerabilities,6
+TLS 1.2 Not Supported Protocol,6
+Host Header Injection,6
+jQuery 1.12.4 < 3.0.0 Cross-Site Scripting,5
+Mixed Resource Detection,5
+Package Dependencies Detected,5
+Contact Form 7 Plugin for WordPress < 5.9.2 Cross-Site Scripting,5
+Contact Form 7 Plugin for WordPress < 5.8.4 Arbitrary File Upload,5
+WordPress User Enumeration,5
+Permissive HTTP Strict Transport Security Policy Detected,5
+Source Code Passive Disclosure,5
+Microsoft IIS Unsupported Version,5
+Microsoft IIS Tilde Character Short File/Folder Name Disclosure,5
+External Broken Resources Detected,5
+PHPinfo Information Disclosure,4
+Insecure 'Access-Control-Allow-Origin' Header,4
+Apache 2.4.x < 2.4.9 Multiple Vulnerabilities,4
+Apache 2.4.6 Remote DoS,4
+Apache 2.4.x < 2.4.28 HTTP Vulnerability (OptionsBleed),4
+Apache 2.4.x < 2.4.27 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.34 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.25 Multiple Vulnerabilities (httpoxy),4
+Apache 2.4.x < 2.4.16 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.12 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.10 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.33 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.35 Denial of Service,4
+Apache 2.4.x < 2.4.26 Multiple Vulnerabilities,4
+Apache 2.4.x < 2.4.38 Multiple Vulnerabilities,4
+SSL/TLS Insecure Cipher Suites Supported,4
+SSL Insecure Protocols,4
+WordPress < 5.8.0 Multiple Vulnerabilities,4
+Contact Form 7 Plugin for WordPress < 5.3.2 Arbitrary File Upload,4
+Blind SQL Injection (timing attack),3
+Apache 2.4.x < 2.4.46 Multiple Vulnerabilities,3
+Moment.js 2.18.x < 2.29.4 Regular Expression Denial of Service,3
+HTML/CSS Injection,3
+Cross-Site Scripting (XSS),3
+Wordfence Security Plugin for WordPress < 7.6.0 Stored Cross-Site Scripting,3
+jQuery UI < 1.10.0 Multiple Vulnerabilities,2
+jQuery < 1.6.3 Cross-Site Scripting,2
+Gitignore File Detected,2
+PHP 8.2.x < 8.2.20 Multiple Vulnerabilities,2
+PHP 8.2.x < 8.2.18 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.13 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.24 Path Traversal,2
+PHP 7.4.x < 7.4.11 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.14 Input Validation Error,2
+PHP 7.4.x < 7.4.25 Privilege Escalation,2
+PHP 7.4.x < 7.4.33 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.10 Memory Leak Vulnerability,2
+PHP 7.4.x < 7.4.21 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.28 Use After Free Vulnerability,2
+PHP 7.4.x < 7.4.18 Header Injection Vulnerability,2
+Web Server Configuration File Detected,2
+Web.config File Information Disclosure,2
+PHP 7.4.x < 7.4.32 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.26 Local File Inclusion,2
+PHP 7.4.x < 7.4.30 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.12 Multiple Vulnerabilities,2
+PHP 7.4.x < 7.4.15 Null Dereference Vulnerability,2
+SQL Statement Disclosure,2
+Apache mod_status Information Disclosure,2
+HTTP Parameter Pollution,2
+SSL/TLS Self-Signed Certificate,2
+Underscore.js 1.3.2 < 1.12.1 Arbitrary Code Injection,2
+PHP Input Variables Exceeded,2
+WordPress 4.4.x < 4.4.29 Multiple Vulnerabilities,2
+WordPress 4.4.x < 4.4.30 Multiple Vulnerabilities,2
+WordPress 4.4.x < 4.4.32 Multiple Vulnerabilities,2
+WordPress 4.4.x < 4.4.28 Multiple Vulnerabilities,2
+WordPress 4.4.x < 4.4.33 Multiple Vulnerabilities,2
+WordPress 4.4.x < 4.4.31 Multiple Vulnerabilities,2
+Bootstrap 4.x < 4.3.1 Cross-Site Scripting,2
+Bootstrap 4.0.0 < 4.1.2 Cross-Site Scripting,2
+Travis CI Configuration Detected,2
+LayerSlider Plugin for WordPress 7.9.11 < 7.10.1 SQL Injection,1
+GraphQL Cross-Site Request Forgery,1
+SQL Injection,1
+Access Restriction Bypass Via Origin Spoof,1
+OpenAPI Permissive Input Validation,1
